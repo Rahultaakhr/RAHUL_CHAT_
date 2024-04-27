@@ -152,7 +152,7 @@ function SearchBar() {
         user?.uId!==currentUser.uid && user ? <div className=" py-2 bg-white w-full h-auto">
           <div onClick={() => {
             handleSelecte()
-          }} className=" flex rounded-md mx-1 px-2 items-center bg-[#5f48c8] gap-2 my-1">
+          }} className=" flex rounded-md mx-1 px-2 py-3 items-center bg-[#5f48c8] gap-2 my-1">
             <img className=" w-[40px] h-[40px] rounded-full" src={user?.photoURL} alt="" />
             <div className=" w-full">
               <h2 className=" w-fit font-semibold">{user?.displayName}</h2>
