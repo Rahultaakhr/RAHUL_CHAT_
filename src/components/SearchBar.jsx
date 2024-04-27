@@ -156,7 +156,7 @@ function SearchBar() {
             <img className=" w-[40px] h-[40px] rounded-full" src={user?.photoURL} alt="" />
             <div className=" w-full">
               <h2 className=" w-fit font-semibold">{user?.displayName}</h2>
-              <p className=" w-fit">Hello</p>
+             
             </div>
           </div>
         </div> :null
