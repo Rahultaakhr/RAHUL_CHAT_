@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 480px) {
+   .logout{
+    position: absolute;
+    width: 80%;
+    margin-right: 10px;
+    bottom: 0;
+   }
+   .logo{
+    display: none;
+   }
+   .userListPhoto{
+    width: 25px;
+    height: 25px;
+   }
+   .chatPage{
+    height: 100%;
+   }
+ 
+   .mainscreen{
+    height: 92vh;
+    scroll-margin: 0;
+   }
+   .sidebar{
+    height: 90vh;
+    border: none;
+   
+   }
+  }
